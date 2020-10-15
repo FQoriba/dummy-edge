@@ -1,0 +1,12 @@
+@font-face {
+  font-family: GothamSSm-Book;
+  src: url(/fonts/GothamSSm-Book.otf);
+}
+@font-face {
+  font-family: GothamSSm-Bold;
+  src: url(/fonts/GothamSSm-Bold.otf);
+}
+#root-container {
+  max-width: 480px;
+  margin: 0 auto;
+}

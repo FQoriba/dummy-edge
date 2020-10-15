@@ -1,46 +1,52 @@
 const express = require("express");
-const bodyParser = require("body-parser");
-const bodyParserGraphQL = require("body-parser-graphql").bodyParserGraphQL;
-const compose = require("compose-middleware").compose;
+// const bodyParser = require("body-parser");
+// const bodyParserGraphQL = require("body-parser-graphql").bodyParserGraphQL;
+// const compose = require("compose-middleware").compose;
+const path = require('path');
 const app = express();
-const bye = require("./bye.json");
-const dummyResponse = require("./payload.json");
+const graphqlJson = require("./data/graphql.json");
+const prefetchJson = require("./data/prefetch.json");
 
-const custommid = (bodyParserOpts = {}) =>
-  compose([
-    (req, res, next) => {
-      if (req.is("text/plain")) {
-        return bodyParser.text(bodyParserOpts)(req, req, next);
-      }
-      return bodyParser.json(bodyParserOpts)(req, req, next);
-    },
-    (req, res, next) => {
-      if (req.is("text/plain")) {
-        try {
-          req.body = JSON.parse(req.body);
-          return next();
-        } catch (e) {
-          return next(e);
-        }
-      }
-      return next();
-    },
-  ]);
+// const custommid = (bodyParserOpts = {}) =>
+//   compose([
+//     (req, res, next) => {
+//       if (req.is("text/plain")) {
+//         return bodyParser.text(bodyParserOpts)(req, req, next);
+//       }
+//       return bodyParser.json(bodyParserOpts)(req, req, next);
+//     },
+//     (req, res, next) => {
+//       if (req.is("text/plain")) {
+//         try {
+//           req.body = JSON.parse(req.body);
+//           return next();
+//         } catch (e) {
+//           return next(e);
+//         }
+//       }
+//       return next();
+//     },
+//   ]);
+app.use(express.static('public'));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '/data/index.html'))
+})
 
 app.get("/android/prefetch", (req, res) => {
-  res.json(dummyResponse);
+  res.json(prefetchJson);
 });
 
 app.get("/ios/prefetch", (req, res) => {
-  res.json(dummyResponse);
+  res.json(prefetchJson);
 });
 
-app.post("/graphql/v1", bodyParser.text(), (req, res) => {
+app.post("/graphql/v1", (req, res) => {
   res.status(200).json({ results: [] });
 });
 
-app.post("/graphql/v2", custommid(), (req, res) => {
-  res.json(bye);
+app.post("/graphql/v2", (req, res) => {
+  res.json(graphqlJson);
 });
 
 app.get("/android/v2/updateInfo", (req, res) => {
