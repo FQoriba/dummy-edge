@@ -1,5 +1,15 @@
 {
+  "name": "dummy-edge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adeyahya/dummy-edge.git",
+  "author": "Sale Stock Devs",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
