@@ -5,7 +5,6 @@ const helmet = require("helmet");
 const prefetchJson = require("./data/prefetch.json");
 const graphqlJson = require("./data/graphql.json");
 
-const IS_PROD = process.env.NODE_ENV === "production";
 const PORT = parseInt(process.env.PORT || "3000", 10);
 
 const app = express();
