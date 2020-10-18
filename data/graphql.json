@@ -327,7 +327,7 @@
                 "data": {
                   "appearance": ["align:center", "button:primary"],
                   "actionTitle": "Title 1",
-                  "actionLink": "/faq",
+                  "actionLink": "https://sorabel.com/faq",
                   "context": {
                     "type": "Text",
                     "widgetType": "Text",
