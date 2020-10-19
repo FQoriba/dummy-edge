@@ -1,35 +1,51 @@
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 const express = require("express");
+const helmet = require("helmet");
 const prefetchJson = require("./data/prefetch.json");
 const graphqlJson = require("./data/graphql.json");
 
-const PORT = parseInt(process.env.PORT || '3000', 10);
+const IS_PROD = process.env.NODE_ENV === "production";
+const PORT = parseInt(process.env.PORT || "3000", 10);
+
 const app = express();
+const indexHtml = fs.readFileSync(path.join(__dirname, "/data/index.html"), {encoding: "utf-8"});
+const faqHtml = fs.readFileSync(path.join(__dirname, "/data/faq.html"), {encoding: "utf-8"});
 
-app.use(express.static('public'));
+app.use(helmet({
+  frameguard: {
+    action: "deny",
+  }
+}));
 
-app.post("/graphql/v1", (req, res) => {
+app.use(express.static("public"));
+
+app.post("/graphql/v1", (_, res) => {
   res.status(200).json({ results: [] });
 });
 
-app.post("/graphql/v2", (req, res) => {
+app.post("/graphql/v2", (_, res) => {
   res.json(graphqlJson);
 });
 
-app.get("/:platform/prefetch", (req, res) => {
+app.get("/:platform/prefetch", (_, res) => {
   res.json(prefetchJson);
 });
 
-app.get("/android/v2/updateInfo", (req, res) => {
+app.get("/android/v2/updateInfo", (_, res) => {
   res.status(500);
 });
 
-app.get("/ios/updateinfo", (req, res) => {
+app.get("/ios/updateinfo", (_, res) => {
   res.status(500);
 });
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/data/index.html'))
+app.get("/faq", (_, res) => {
+  res.send(faqHtml);
+});
+
+app.get("*", (_, res) => {
+  res.send(indexHtml);
 });
 
 app.listen(PORT, () => {

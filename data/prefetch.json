@@ -765,7 +765,7 @@
             ]
           },
           "actionTitle": "Title 1",
-          "actionLink": "/faq",
+          "actionLink": "https://sorabel.com/faq",
           "context": {
             "type": "id",
             "id": "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.context",
