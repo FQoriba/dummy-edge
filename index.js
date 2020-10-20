@@ -14,7 +14,8 @@ const faqHtml = fs.readFileSync(path.join(__dirname, "/data/faq.html"), {encodin
 app.use(helmet({
   frameguard: {
     action: "deny",
-  }
+  },
+  contentSecurityPolicy: false,
 }));
 
 app.use(express.static("public"));
