@@ -109,717 +109,806 @@
   },
   "apolloState": {
     "data": {
-        "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).0": {
-          "key": "home",
-          "label": "Belanja",
-          "icon": "sb",
-          "link": "/",
-          "hasCounter": false,
-          "qaId": "qa_home_button",
-          "qaIdBadge": null,
-          "trackerEventType": "CLICK_HOME_BOTTOM",
-          "activeOnPage": {
-            "type": "json",
-            "json": [
-              "/",
-              "/products/category/home"
-            ]
-          },
-          "orderDesktop": 1,
-          "orderMobile": 1,
-          "__typename": "NavigationItem"
+      "DynamicContentinfo-sorabel": {
+        "slug": "info-sorabel",
+        "params": "",
+        "widgetOffset": 0,
+        "contentOffset": 0,
+        "nextWidgetOffset": null,
+        "nextContentOffset": null,
+        "metadata": {
+          "type": "id",
+          "id": "$DynamicContentinfo-sorabel.metadata",
+          "generated": true
         },
-        "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).1": {
-          "key": "category",
-          "label": "Eksplor",
-          "icon": "eksplor",
-          "link": "/bye-sorabel",
-          "hasCounter": false,
-          "qaId": "qa_category_button",
-          "qaIdBadge": null,
-          "trackerEventType": "CLICK_EXPLORE_BOTTOM",
-          "activeOnPage": {
-            "type": "json",
-            "json": [
-              "/menu/category",
-              "/brand",
-              "/koleksi"
-            ]
-          },
-          "orderDesktop": 2,
-          "orderMobile": 2,
-          "__typename": "NavigationItem"
-        },
-        "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).2": {
-          "key": "cart",
-          "label": "Keranjang",
-          "icon": "cart",
-          "link": "/cart",
-          "hasCounter": true,
-          "qaId": "qa_cart_button",
-          "qaIdBadge": "qa_cart_counter",
-          "trackerEventType": "CLICK_CART_BOTTOM",
-          "activeOnPage": {
-            "type": "json",
-            "json": [
-              "/cart"
-            ]
-          },
-          "orderDesktop": 5,
-          "orderMobile": 5,
-          "__typename": "NavigationItem"
-        },
-        "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).3": {
-          "key": "profile",
-          "label": "Sista",
-          "icon": "sista",
-          "link": "/profile",
-          "hasCounter": true,
-          "qaId": "qa_profile_button",
-          "qaIdBadge": "qa_profile_counter",
-          "trackerEventType": "CLICK_PROFILE_BOTTOM",
-          "activeOnPage": {
-            "type": "json",
-            "json": [
-              "/profile"
-            ]
-          },
-          "orderDesktop": 6,
-          "orderMobile": 6,
-          "__typename": "NavigationItem"
-        },
-        "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).4": {
-          "key": "inspiration",
-          "label": "Inspirasi",
-          "icon": "inspirasi",
-          "link": "/inspirasi",
-          "hasCounter": true,
-          "qaId": "qa_inspiration_button",
-          "qaIdBadge": "qa_inspiration_counter",
-          "trackerEventType": "CLICK_INSPIRATION_BOTTOM",
-          "activeOnPage": {
-            "type": "json",
-            "json": [
-              "/inspirasi"
-            ]
-          },
-          "orderDesktop": 3,
-          "orderMobile": 3,
-          "__typename": "NavigationItem"
-        },
-        "ROOT_QUERY": {
-          "navigationList({\"deviceType\":\"mobile\"})": [
-            {
-              "type": "id",
-              "id": "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).0",
-              "generated": true
-            },
-            {
-              "type": "id",
-              "id": "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).1",
-              "generated": true
-            },
-            {
-              "type": "id",
-              "id": "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).2",
-              "generated": true
-            },
-            {
-              "type": "id",
-              "id": "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).3",
-              "generated": true
-            },
-            {
-              "type": "id",
-              "id": "ROOT_QUERY.navigationList({\"deviceType\":\"mobile\"}).4",
-              "generated": true
-            }
-          ],
-          "dynamic({\"app\":false,\"slug\":\"bye-sorabel\",\"widgetOffset\":0,\"contentOffset\":0,\"deviceType\":\"mobile\",\"cookieId\":\"687acfb8-10e2-43df-a9ff-970e2a3be4ac\"})": {
+        "content": [
+          {
             "type": "id",
-            "id": "DynamicContentbye-sorabel",
+            "id": "Wrapperinfo_sorabel_0_Card_product_score_desc",
+            "generated": false
+          },
+          {
+            "type": "id",
+            "id": "Wrapperinfo_sorabel_1_Card_product_score_desc",
+            "generated": false
+          },
+          {
+            "type": "id",
+            "id": "Wrapperinfo_sorabel_2_Card_product_score_desc",
+            "generated": false
+          },
+          {
+            "type": "id",
+            "id": "Wrapperinfo_sorabel_3_Card_product_score_desc",
             "generated": false
           }
+        ],
+        "__typename": "DynamicContent"
+      },
+      "$DynamicContentinfo-sorabel.metadata": {
+        "title": "Info Sorabel",
+        "description": null,
+        "seoTitle": "Test",
+        "seoDescription": "Test Description",
+        "image": null,
+        "isShareable": false,
+        "noIndex": false,
+        "commentIndex": null,
+        "header": "title",
+        "productIndex": null,
+        "__typename": "ContentMetadata"
+      },
+      "Wrapperinfo_sorabel_0_Card_product_score_desc": {
+        "id": "info_sorabel_0_Card_product_score_desc",
+        "type": "Card",
+        "offset": 0,
+        "nextContentOffset": null,
+        "data": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_0_Card_product_score_desc.data",
+          "generated": true
         },
-        "DynamicContentbye-sorabel": {
-          "slug": "bye-sorabel",
-          "params": "",
-          "widgetOffset": 0,
-          "contentOffset": 0,
-          "nextWidgetOffset": null,
-          "nextContentOffset": null,
-          "metadata": {
+        "content": [
+          {
             "type": "id",
-            "id": "$DynamicContentbye-sorabel.metadata",
-            "generated": true
-          },
-          "content": [
-            {
-              "type": "id",
-              "id": "Wrapperbye_sorabel_0_Card_product_score_desc",
-              "generated": false
-            },
-            {
-              "type": "id",
-              "id": "Wrapperbye_sorabel_1_Card_product_score_desc",
-              "generated": false
-            },
-            {
-              "type": "id",
-              "id": "Wrapperbye_sorabel_2_Card_product_score_desc",
-              "generated": false
-            },
-            {
-              "type": "id",
-              "id": "Wrapperbye_sorabel_3_Card_product_score_desc",
-              "generated": false
-            }
-          ],
-          "__typename": "DynamicContent"
+            "id": "ImageWidgetinfo_sorabel_0_0_Image_product_score_desc",
+            "generated": false
+          }
+        ],
+        "__typename": "Wrapper"
+      },
+      "$Wrapperinfo_sorabel_0_Card_product_score_desc.data": {
+        "appearance": null,
+        "actionLink": null,
+        "actionTitle": null,
+        "title": "",
+        "context": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_0_Card_product_score_desc.data.context",
+          "generated": true
         },
-        "$DynamicContentbye-sorabel.metadata": {
-          "title": "Bye Sorabel",
-          "description": null,
-          "seoTitle": "Test",
-          "seoDescription": "Test Description",
-          "image": null,
-          "isShareable": false,
-          "noIndex": false,
-          "commentIndex": null,
-          "header": "title",
-          "productIndex": null,
-          "__typename": "ContentMetadata"
+        "layout": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_0_Card_product_score_desc.data.layout",
+          "generated": true
         },
-        "Wrapperbye_sorabel_0_Card_product_score_desc": {
-          "id": "bye_sorabel_0_Card_product_score_desc",
-          "type": "Card",
-          "offset": 0,
-          "nextContentOffset": null,
-          "data": {
+        "__typename": "WidgetData"
+      },
+      "$Wrapperinfo_sorabel_0_Card_product_score_desc.data.context": {
+        "widgetType": "Card",
+        "type": "Card",
+        "name": null,
+        "widgetPosition": "0",
+        "widgetId": "a7cdca6c-e7ac-4e90-baf4-5bada1df2e0d",
+        "contextDataPath": null,
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$Wrapperinfo_sorabel_0_Card_product_score_desc.data.layout": {
+        "columns": 1,
+        "rows": 1,
+        "columnSize": null,
+        "rowSize": null,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": "medium",
+        "paddingRight": null,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "ImageWidgetinfo_sorabel_0_0_Image_product_score_desc": {
+        "id": "info_sorabel_0_0_Image_product_score_desc",
+        "offset": 0,
+        "type": "Image",
+        "data": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data",
+          "generated": true
+        },
+        "__typename": "ImageWidget"
+      },
+      "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data": {
+        "appearance": null,
+        "actionLink": null,
+        "context": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.context",
+          "generated": true
+        },
+        "layout": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.layout",
+          "generated": true
+        },
+        "entity": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.entity",
+          "generated": true
+        },
+        "__typename": "ImageWidgetData"
+      },
+      "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.context": {
+        "type": "Image",
+        "widgetType": "Image",
+        "name": null,
+        "widgetPosition": "0",
+        "widgetId": "330dd946-c1ca-4af4-bb51-fe9e48c8a0f8",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "title:data.entity.title",
+            "url:data.entity.url"
+          ]
+        },
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": "small",
+        "paddingRight": null,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.entity": {
+        "fullUrl({\"maxWidth\":480})": "https://imager-next.sistemsista.com/images/resized/480/b10fd87f-25e6-4333-b425-e9b1492f8348",
+        "width": 480,
+        "height": 77,
+        "title": "Static-Page-Banner-480x77.jpg",
+        "__typename": "ImageV2"
+      },
+      "Wrapperinfo_sorabel_1_Card_product_score_desc": {
+        "id": "info_sorabel_1_Card_product_score_desc",
+        "type": "Card",
+        "offset": 1,
+        "nextContentOffset": null,
+        "data": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_1_Card_product_score_desc.data",
+          "generated": true
+        },
+        "content": [
+          {
             "type": "id",
-            "id": "$Wrapperbye_sorabel_0_Card_product_score_desc.data",
-            "generated": true
-          },
-          "content": [
-            {
-              "type": "id",
-              "id": "ImageWidgetbye_sorabel_0_0_Image_product_score_desc",
-              "generated": false
-            }
-          ],
-          "__typename": "Wrapper"
+            "id": "TextWidgetinfo_sorabel_1_0_Text_product_score_desc",
+            "generated": false
+          }
+        ],
+        "__typename": "Wrapper"
+      },
+      "$Wrapperinfo_sorabel_1_Card_product_score_desc.data": {
+        "appearance": null,
+        "actionLink": null,
+        "actionTitle": null,
+        "title": "",
+        "context": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_1_Card_product_score_desc.data.context",
+          "generated": true
         },
-        "$Wrapperbye_sorabel_0_Card_product_score_desc.data": {
-          "appearance": null,
-          "actionLink": null,
-          "actionTitle": null,
-          "title": "",
-          "context": {
+        "layout": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_1_Card_product_score_desc.data.layout",
+          "generated": true
+        },
+        "__typename": "WidgetData"
+      },
+      "$Wrapperinfo_sorabel_1_Card_product_score_desc.data.context": {
+        "widgetType": "Card",
+        "type": "Card",
+        "name": null,
+        "widgetPosition": "1",
+        "widgetId": "cad6f59e-8466-4ce5-a33b-339511d2d5ea",
+        "contextDataPath": null,
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$Wrapperinfo_sorabel_1_Card_product_score_desc.data.layout": {
+        "columns": 1,
+        "rows": 1,
+        "columnSize": null,
+        "rowSize": null,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": "large",
+        "paddingRight": "medium",
+        "paddingBottom": "large",
+        "paddingLeft": "medium",
+        "__typename": "WidgetLayout"
+      },
+      "TextWidgetinfo_sorabel_1_0_Text_product_score_desc": {
+        "id": "info_sorabel_1_0_Text_product_score_desc",
+        "offset": 0,
+        "type": "Text",
+        "data": {
+          "type": "id",
+          "id": "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data",
+          "generated": true
+        },
+        "__typename": "TextWidget"
+      },
+      "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data": {
+        "appearance": {
+          "type": "json",
+          "json": [
+            "align:left"
+          ]
+        },
+        "actionTitle": null,
+        "actionLink": null,
+        "context": {
+          "type": "id",
+          "id": "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data.context",
+          "generated": true
+        },
+        "layout": {
+          "type": "id",
+          "id": "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data.layout",
+          "generated": true
+        },
+        "entity": {
+          "type": "id",
+          "id": "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data.entity",
+          "generated": true
+        },
+        "__typename": "TextWidgetData"
+      },
+      "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data.context": {
+        "type": "Text",
+        "widgetType": "Text",
+        "name": null,
+        "widgetPosition": "0",
+        "widgetId": "4b67dc9a-0f4e-4491-a085-098860df67fe",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "content:data.entity.content",
+            "title:data.entity.title"
+          ]
+        },
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": "small",
+        "paddingRight": null,
+        "paddingBottom": "small",
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "$TextWidgetinfo_sorabel_1_0_Text_product_score_desc.data.entity": {
+        "title": "",
+        "content": "<p>Hi Sista! </p><p>Saat ini, Sorabel tengah melakukan peningkatan sistem untuk memberikan layanan yang lebih baik untuk Sista. Jadi, untuk sementara waktu website dan app Sorabel belum bisa digunakan untuk berbelanja ya, Sis.</p><p>Tapi jangan khawatir, karena Sorabel sudah bekerja sama dengan Shopee untuk membuka Sorabel Official Store di Shopee Mall. Jadi Sista bisa berbelanja koleksi Sorabel di Shopee.</p><p>Untuk pesanan Sista yang dibuat sebelum tanggal 22 Oktober 2020  tetap diproses Sorabel kok Sis. Sista bisa cek pesanannya dengan klik tautan dibawah dan memasukan ID Pesanan Sista, atau Sista bisa menghubungi Sorabel lewat Whatsapp ya. </p><p>Sebagai apresiasi untuk Sista yang udah setia belanja di Sorabel, ada voucher spesial untuk Sista nih. Pakai kodenya dan dapatkan disc 25% s/d 100rb. Ikuti juga toko Sorabel Official di Shopee Mall ya, biar nggak ketinggalan update terbaru ;)</p>",
+        "__typename": "TextType"
+      },
+      "Wrapperinfo_sorabel_2_Card_product_score_desc": {
+        "id": "info_sorabel_2_Card_product_score_desc",
+        "type": "Card",
+        "offset": 2,
+        "nextContentOffset": null,
+        "data": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_2_Card_product_score_desc.data",
+          "generated": true
+        },
+        "content": [
+          {
             "type": "id",
-            "id": "$Wrapperbye_sorabel_0_Card_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
+            "id": "ImageWidgetinfo_sorabel_2_0_Image_product_score_desc",
+            "generated": false
+          }
+        ],
+        "__typename": "Wrapper"
+      },
+      "$Wrapperinfo_sorabel_2_Card_product_score_desc.data": {
+        "appearance": null,
+        "actionLink": null,
+        "actionTitle": null,
+        "title": "",
+        "context": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_2_Card_product_score_desc.data.context",
+          "generated": true
+        },
+        "layout": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_2_Card_product_score_desc.data.layout",
+          "generated": true
+        },
+        "__typename": "WidgetData"
+      },
+      "$Wrapperinfo_sorabel_2_Card_product_score_desc.data.context": {
+        "widgetType": "Card",
+        "type": "Card",
+        "name": null,
+        "widgetPosition": "2",
+        "widgetId": "d0c445f1-2162-49e9-a2aa-38f6c69e5340",
+        "contextDataPath": null,
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$Wrapperinfo_sorabel_2_Card_product_score_desc.data.layout": {
+        "columns": 1,
+        "rows": 1,
+        "columnSize": null,
+        "rowSize": null,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": null,
+        "paddingBottom": "medium",
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "ImageWidgetinfo_sorabel_2_0_Image_product_score_desc": {
+        "id": "info_sorabel_2_0_Image_product_score_desc",
+        "offset": 0,
+        "type": "Image",
+        "data": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data",
+          "generated": true
+        },
+        "__typename": "ImageWidget"
+      },
+      "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data": {
+        "appearance": null,
+        "actionLink": null,
+        "context": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.context",
+          "generated": true
+        },
+        "layout": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.layout",
+          "generated": true
+        },
+        "entity": {
+          "type": "id",
+          "id": "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.entity",
+          "generated": true
+        },
+        "__typename": "ImageWidgetData"
+      },
+      "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.context": {
+        "type": "Image",
+        "widgetType": "Image",
+        "name": null,
+        "widgetPosition": "0",
+        "widgetId": "bb07d6d3-364d-41fc-ab79-4946174e7e6d",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "title:data.entity.title",
+            "url:data.entity.url"
+          ]
+        },
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": null,
+        "paddingBottom": "small",
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.entity": {
+        "fullUrl({\"maxWidth\":480})": "https://imager-next.sistemsista.com/images/resized/480/64984853-553f-4567-b004-47a8aeae9e64",
+        "width": 480,
+        "height": 130,
+        "title": "Static-Page-Banner-480x130.jpg",
+        "__typename": "ImageV2"
+      },
+      "Wrapperinfo_sorabel_3_Card_product_score_desc": {
+        "id": "info_sorabel_3_Card_product_score_desc",
+        "type": "Card",
+        "offset": 3,
+        "nextContentOffset": null,
+        "data": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_3_Card_product_score_desc.data",
+          "generated": true
+        },
+        "content": [
+          {
             "type": "id",
-            "id": "$Wrapperbye_sorabel_0_Card_product_score_desc.data.layout",
-            "generated": true
+            "id": "ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc",
+            "generated": false
           },
-          "__typename": "WidgetData"
-        },
-        "$Wrapperbye_sorabel_0_Card_product_score_desc.data.context": {
-          "widgetType": "Card",
-          "type": "Card",
-          "name": null,
-          "widgetPosition": "0",
-          "widgetId": "a7cdca6c-e7ac-4e90-baf4-5bada1df2e0d",
-          "contextDataPath": null,
-          "additionalData": null,
-          "__typename": "TrackingContext"
-        },
-        "$Wrapperbye_sorabel_0_Card_product_score_desc.data.layout": {
-          "columns": 1,
-          "rows": 1,
-          "columnSize": null,
-          "rowSize": null,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": "medium",
-          "paddingRight": null,
-          "paddingBottom": null,
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
-        },
-        "ImageWidgetbye_sorabel_0_0_Image_product_score_desc": {
-          "id": "bye_sorabel_0_0_Image_product_score_desc",
-          "offset": 0,
-          "type": "Image",
-          "data": {
+          {
             "type": "id",
-            "id": "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data",
-            "generated": true
+            "id": "ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc",
+            "generated": false
           },
-          "__typename": "ImageWidget"
-        },
-        "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data": {
-          "appearance": null,
-          "actionLink": null,
-          "context": {
+          {
             "type": "id",
-            "id": "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data.context",
-            "generated": true
+            "id": "ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc",
+            "generated": false
           },
-          "layout": {
+          {
             "type": "id",
-            "id": "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data.layout",
-            "generated": true
-          },
-          "entity": {
-            "type": "id",
-            "id": "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data.entity",
-            "generated": true
-          },
-          "__typename": "ImageWidgetData"
+            "id": "ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc",
+            "generated": false
+          }
+        ],
+        "__typename": "Wrapper"
+      },
+      "$Wrapperinfo_sorabel_3_Card_product_score_desc.data": {
+        "appearance": null,
+        "actionLink": null,
+        "actionTitle": null,
+        "title": "",
+        "context": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_3_Card_product_score_desc.data.context",
+          "generated": true
         },
-        "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data.context": {
-          "type": "Image",
-          "widgetType": "Image",
-          "name": null,
-          "widgetPosition": "0",
-          "widgetId": "330dd946-c1ca-4af4-bb51-fe9e48c8a0f8",
-          "contextDataPath": {
-            "type": "json",
-            "json": [
-              "title:data.entity.title",
-              "url:data.entity.url"
-            ]
-          },
-          "additionalData": null,
-          "__typename": "TrackingContext"
+        "layout": {
+          "type": "id",
+          "id": "$Wrapperinfo_sorabel_3_Card_product_score_desc.data.layout",
+          "generated": true
         },
-        "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data.layout": {
-          "columns": null,
-          "rows": null,
-          "columnSize": 1,
-          "rowSize": 1,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": "small",
-          "paddingRight": null,
-          "paddingBottom": null,
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
+        "__typename": "WidgetData"
+      },
+      "$Wrapperinfo_sorabel_3_Card_product_score_desc.data.context": {
+        "widgetType": "Card",
+        "type": "Card",
+        "name": null,
+        "widgetPosition": "3",
+        "widgetId": "ddad2c32-33fc-4e88-87f5-97f64453521a",
+        "contextDataPath": null,
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$Wrapperinfo_sorabel_3_Card_product_score_desc.data.layout": {
+        "columns": 1,
+        "rows": 4,
+        "columnSize": null,
+        "rowSize": null,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": "large",
+        "paddingBottom": null,
+        "paddingLeft": "large",
+        "__typename": "WidgetLayout"
+      },
+      "ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc": {
+        "id": "info_sorabel_3_0_ActionText_product_score_desc",
+        "offset": 0,
+        "type": "ActionText",
+        "data": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc.data",
+          "generated": true
         },
-        "$ImageWidgetbye_sorabel_0_0_Image_product_score_desc.data.entity": {
-          "fullUrl({\"maxWidth\":480})": "https://imager-next.sistemsista.com/images/resized/480/02e57660-fd25-4a0f-b1e3-6a97ecdd4757",
-          "width": 660,
-          "height": 106,
-          "title": null,
-          "__typename": "ImageV2"
+        "__typename": "ActionTextWidget"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc.data": {
+        "appearance": {
+          "type": "json",
+          "json": [
+            "text:body",
+            "align:center",
+            "bg:berry",
+            "fg:white",
+            "size:small"
+          ]
         },
-        "Wrapperbye_sorabel_1_Card_product_score_desc": {
-          "id": "bye_sorabel_1_Card_product_score_desc",
-          "type": "Card",
-          "offset": 1,
-          "nextContentOffset": null,
-          "data": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_1_Card_product_score_desc.data",
-            "generated": true
-          },
-          "content": [
-            {
-              "type": "id",
-              "id": "TextWidgetbye_sorabel_1_0_Text_product_score_desc",
-              "generated": false
-            }
-          ],
-          "__typename": "Wrapper"
+        "actionTitle": "Belanja Sorabel di Shopee",
+        "actionLink": "https://shopee.co.id/sorabelofficial",
+        "context": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc.data.context",
+          "generated": true
         },
-        "$Wrapperbye_sorabel_1_Card_product_score_desc.data": {
-          "appearance": null,
-          "actionLink": null,
-          "actionTitle": null,
-          "title": "",
-          "context": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_1_Card_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_1_Card_product_score_desc.data.layout",
-            "generated": true
-          },
-          "__typename": "WidgetData"
+        "layout": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc.data.layout",
+          "generated": true
         },
-        "$Wrapperbye_sorabel_1_Card_product_score_desc.data.context": {
-          "widgetType": "Card",
-          "type": "Card",
-          "name": null,
-          "widgetPosition": "1",
-          "widgetId": "cad6f59e-8466-4ce5-a33b-339511d2d5ea",
-          "contextDataPath": null,
-          "additionalData": null,
-          "__typename": "TrackingContext"
+        "__typename": "ActionTextWidgetData"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc.data.context": {
+        "type": "ActionText",
+        "widgetType": "ActionText",
+        "name": null,
+        "widgetPosition": "0",
+        "widgetId": "dce97b3f-9692-4260-b0ea-35d7512c7c65",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "actionLink:data.actionLink",
+            "actionTitle:data.actionTitle",
+            "title:data.title"
+          ]
         },
-        "$Wrapperbye_sorabel_1_Card_product_score_desc.data.layout": {
-          "columns": 1,
-          "rows": 1,
-          "columnSize": null,
-          "rowSize": null,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": "large",
-          "paddingRight": "medium",
-          "paddingBottom": "large",
-          "paddingLeft": "medium",
-          "__typename": "WidgetLayout"
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_0_ActionText_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": null,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc": {
+        "id": "info_sorabel_3_1_ActionText_product_score_desc",
+        "offset": 1,
+        "type": "ActionText",
+        "data": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc.data",
+          "generated": true
         },
-        "TextWidgetbye_sorabel_1_0_Text_product_score_desc": {
-          "id": "bye_sorabel_1_0_Text_product_score_desc",
-          "offset": 0,
-          "type": "Text",
-          "data": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data",
-            "generated": true
-          },
-          "__typename": "TextWidget"
+        "__typename": "ActionTextWidget"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc.data": {
+        "appearance": {
+          "type": "json",
+          "json": [
+            "text:body",
+            "align:center",
+            "bg:berry",
+            "fg:white",
+            "size:small"
+          ]
         },
-        "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data": {
-          "appearance": {
-            "type": "json",
-            "json": [
-              "align:left"
-            ]
-          },
-          "actionTitle": null,
-          "actionLink": null,
-          "context": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data.layout",
-            "generated": true
-          },
-          "entity": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data.entity",
-            "generated": true
-          },
-          "__typename": "TextWidgetData"
+        "actionTitle": "Hubungi Sorabel di Whatsapp",
+        "actionLink": "https://wa.me/6281280819136",
+        "context": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc.data.context",
+          "generated": true
         },
-        "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data.context": {
-          "type": "Text",
-          "widgetType": "Text",
-          "name": null,
-          "widgetPosition": "0",
-          "widgetId": "4b67dc9a-0f4e-4491-a085-098860df67fe",
-          "contextDataPath": {
-            "type": "json",
-            "json": [
-              "content:data.entity.content",
-              "title:data.entity.title"
-            ]
-          },
-          "additionalData": null,
-          "__typename": "TrackingContext"
+        "layout": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc.data.layout",
+          "generated": true
         },
-        "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data.layout": {
-          "columns": null,
-          "rows": null,
-          "columnSize": 1,
-          "rowSize": 1,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": "small",
-          "paddingRight": null,
-          "paddingBottom": "small",
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
+        "__typename": "ActionTextWidgetData"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc.data.context": {
+        "type": "ActionText",
+        "widgetType": "ActionText",
+        "name": null,
+        "widgetPosition": "1",
+        "widgetId": "40b32797-e41a-41bd-9860-0b43716b47ba",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "actionLink:data.actionLink",
+            "actionTitle:data.actionTitle",
+            "title:data.title"
+          ]
         },
-        "$TextWidgetbye_sorabel_1_0_Text_product_score_desc.data.entity": {
-          "title": "",
-          "content": "<p>Hi Sista! </p><p>Saat ini, Sorabel tengah melakukan peningkatan sistem untuk memberikan layanan yang lebih baik untuk Sista. Jadi, untuk sementara waktu website dan app Sorabel belum bisa digunakan untuk berbelanja ya, Sis.</p><p>Tapi jangan khawatir, karena Sorabel sudah bekerja sama dengan Shopee untuk membuka Sorabel Official Store di Shopee Mall. Jadi Sista bisa berbelanja koleksi Sorabel di Shopee.</p><p>Untuk pesanan Sista yang dibuat sebelum tanggal XX Oktober 2020  tetap diproses Sorabel kok Sis. Sista bisa cek pesanannya dengan klik tautan dibawah dan memasukan ID Pesanan Sista, atau Sista bisa menghubungi Sorabel lewat Whatsapp ya. </p><p>Sebagai apresiasi untuk Sista yang udah setia belanja di Sorabel, ada voucher spesial untuk Sista nih. Pakai kodenya dan dapatkan disc 25% s/d 100rb. Ikuti juga toko Sorabel Official di Shopee Mall ya, biar nggak ketinggalan update terbaru ;)</p>",
-          "__typename": "TextType"
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_1_ActionText_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": null,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc": {
+        "id": "info_sorabel_3_2_ActionText_product_score_desc",
+        "offset": 2,
+        "type": "ActionText",
+        "data": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc.data",
+          "generated": true
         },
-        "Wrapperbye_sorabel_2_Card_product_score_desc": {
-          "id": "bye_sorabel_2_Card_product_score_desc",
-          "type": "Card",
-          "offset": 2,
-          "nextContentOffset": null,
-          "data": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_2_Card_product_score_desc.data",
-            "generated": true
-          },
-          "content": [
-            {
-              "type": "id",
-              "id": "ImageWidgetbye_sorabel_2_0_Image_product_score_desc",
-              "generated": false
-            }
-          ],
-          "__typename": "Wrapper"
+        "__typename": "ActionTextWidget"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc.data": {
+        "appearance": {
+          "type": "json",
+          "json": [
+            "text:body",
+            "align:center",
+            "bg:berry",
+            "fg:white",
+            "size:small"
+          ]
         },
-        "$Wrapperbye_sorabel_2_Card_product_score_desc.data": {
-          "appearance": null,
-          "actionLink": null,
-          "actionTitle": null,
-          "title": "",
-          "context": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_2_Card_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_2_Card_product_score_desc.data.layout",
-            "generated": true
-          },
-          "__typename": "WidgetData"
+        "actionTitle": "Cek Pesanan Sista",
+        "actionLink": "https://bit.ly/3lgTAdN",
+        "context": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc.data.context",
+          "generated": true
         },
-        "$Wrapperbye_sorabel_2_Card_product_score_desc.data.context": {
-          "widgetType": "Card",
-          "type": "Card",
-          "name": null,
-          "widgetPosition": "2",
-          "widgetId": "d0c445f1-2162-49e9-a2aa-38f6c69e5340",
-          "contextDataPath": null,
-          "additionalData": null,
-          "__typename": "TrackingContext"
+        "layout": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc.data.layout",
+          "generated": true
         },
-        "$Wrapperbye_sorabel_2_Card_product_score_desc.data.layout": {
-          "columns": 1,
-          "rows": 1,
-          "columnSize": null,
-          "rowSize": null,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": null,
-          "paddingRight": null,
-          "paddingBottom": "medium",
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
+        "__typename": "ActionTextWidgetData"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc.data.context": {
+        "type": "ActionText",
+        "widgetType": "ActionText",
+        "name": null,
+        "widgetPosition": "2",
+        "widgetId": "68668360-03e6-4ef6-a2cf-d4eb0db89eff",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "actionLink:data.actionLink",
+            "actionTitle:data.actionTitle",
+            "title:data.title"
+          ]
         },
-        "ImageWidgetbye_sorabel_2_0_Image_product_score_desc": {
-          "id": "bye_sorabel_2_0_Image_product_score_desc",
-          "offset": 0,
-          "type": "Image",
-          "data": {
-            "type": "id",
-            "id": "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data",
-            "generated": true
-          },
-          "__typename": "ImageWidget"
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_2_ActionText_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": null,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc": {
+        "id": "info_sorabel_3_3_ActionText_product_score_desc",
+        "offset": 3,
+        "type": "ActionText",
+        "data": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data",
+          "generated": true
         },
-        "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data": {
-          "appearance": null,
-          "actionLink": null,
-          "context": {
-            "type": "id",
-            "id": "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
-            "type": "id",
-            "id": "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data.layout",
-            "generated": true
-          },
-          "entity": {
-            "type": "id",
-            "id": "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data.entity",
-            "generated": true
-          },
-          "__typename": "ImageWidgetData"
+        "__typename": "ActionTextWidget"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data": {
+        "appearance": {
+          "type": "json",
+          "json": [
+            "text:body",
+            "align:center",
+            "bg:berry",
+            "fg:white",
+            "size:small"
+          ]
         },
-        "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data.context": {
-          "type": "Image",
-          "widgetType": "Image",
-          "name": null,
-          "widgetPosition": "0",
-          "widgetId": "bb07d6d3-364d-41fc-ab79-4946174e7e6d",
-          "contextDataPath": {
-            "type": "json",
-            "json": [
-              "title:data.entity.title",
-              "url:data.entity.url"
-            ]
-          },
-          "additionalData": null,
-          "__typename": "TrackingContext"
+        "actionTitle": "FAQ & Syarat Ketentuan Voucher",
+        "actionLink": "https://www.sorabel.com/faq",
+        "context": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data.context",
+          "generated": true
         },
-        "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data.layout": {
-          "columns": null,
-          "rows": null,
-          "columnSize": 1,
-          "rowSize": 1,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": null,
-          "paddingRight": null,
-          "paddingBottom": "small",
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
+        "layout": {
+          "type": "id",
+          "id": "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data.layout",
+          "generated": true
         },
-        "$ImageWidgetbye_sorabel_2_0_Image_product_score_desc.data.entity": {
-          "fullUrl({\"maxWidth\":480})": "https://imager-next.sistemsista.com/images/resized/480/a03963b8-4522-4b43-b50b-d0f05c291acc",
-          "width": 660,
-          "height": 178,
-          "title": null,
-          "__typename": "ImageV2"
+        "__typename": "ActionTextWidgetData"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data.context": {
+        "type": "ActionText",
+        "widgetType": "ActionText",
+        "name": null,
+        "widgetPosition": "3",
+        "widgetId": "3f3fcba1-d172-4bb9-8f30-534ce5ab736e",
+        "contextDataPath": {
+          "type": "json",
+          "json": [
+            "actionLink:data.actionLink",
+            "actionTitle:data.actionTitle",
+            "title:data.title"
+          ]
         },
-        "Wrapperbye_sorabel_3_Card_product_score_desc": {
-          "id": "bye_sorabel_3_Card_product_score_desc",
-          "type": "Card",
-          "offset": 3,
-          "nextContentOffset": null,
-          "data": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_3_Card_product_score_desc.data",
-            "generated": true
-          },
-          "content": [
-            {
-              "type": "id",
-              "id": "TextWidgetbye_sorabel_3_0_Text_product_score_desc",
-              "generated": false
-            }
-          ],
-          "__typename": "Wrapper"
+        "additionalData": null,
+        "__typename": "TrackingContext"
+      },
+      "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data.layout": {
+        "columns": null,
+        "rows": null,
+        "columnSize": 1,
+        "rowSize": 1,
+        "marginTop": null,
+        "marginRight": null,
+        "marginBottom": null,
+        "marginLeft": null,
+        "paddingTop": null,
+        "paddingRight": null,
+        "paddingBottom": null,
+        "paddingLeft": null,
+        "__typename": "WidgetLayout"
+      },
+      "ROOT_QUERY": {
+        "dynamic({\"app\":true,\"slug\":\"info-sorabel\",\"widgetOffset\":0,\"contentOffset\":0,\"deviceType\":\"desktop\",\"cookieId\":\"ee0a9865-b613-4022-93b0-ff63ef914a28\"})": {
+          "type": "id",
+          "id": "DynamicContentinfo-sorabel",
+          "generated": false
         },
-        "$Wrapperbye_sorabel_3_Card_product_score_desc.data": {
-          "appearance": null,
-          "actionLink": null,
-          "actionTitle": null,
-          "title": "",
-          "context": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_3_Card_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
-            "type": "id",
-            "id": "$Wrapperbye_sorabel_3_Card_product_score_desc.data.layout",
-            "generated": true
-          },
-          "__typename": "WidgetData"
-        },
-        "$Wrapperbye_sorabel_3_Card_product_score_desc.data.context": {
-          "widgetType": "Card",
-          "type": "Card",
-          "name": null,
-          "widgetPosition": "3",
-          "widgetId": "ddad2c32-33fc-4e88-87f5-97f64453521a",
-          "contextDataPath": null,
-          "additionalData": null,
-          "__typename": "TrackingContext"
-        },
-        "$Wrapperbye_sorabel_3_Card_product_score_desc.data.layout": {
-          "columns": 1,
-          "rows": 1,
-          "columnSize": null,
-          "rowSize": null,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": null,
-          "paddingRight": null,
-          "paddingBottom": "large",
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
-        },
-        "TextWidgetbye_sorabel_3_0_Text_product_score_desc": {
-          "id": "bye_sorabel_3_0_Text_product_score_desc",
-          "offset": 0,
-          "type": "Text",
-          "data": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data",
-            "generated": true
-          },
-          "__typename": "TextWidget"
-        },
-        "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data": {
-          "appearance": {
-            "type": "json",
-            "json": [
-              "align:center",
-              "button:primary"
-            ]
-          },
-          "actionTitle": "Title 1",
-          "actionLink": "https://sorabel.com/faq",
-          "context": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.context",
-            "generated": true
-          },
-          "layout": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.layout",
-            "generated": true
-          },
-          "entity": {
-            "type": "id",
-            "id": "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.entity",
-            "generated": true
-          },
-          "__typename": "TextWidgetData"
-        },
-        "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.context": {
-          "type": "Text",
-          "widgetType": "Text",
-          "name": null,
-          "widgetPosition": "0",
-          "widgetId": "d64abf7d-304c-42bd-9f92-5c38ec66467b",
-          "contextDataPath": {
-            "type": "json",
-            "json": [
-              "content:data.entity.content",
-              "title:data.entity.title"
-            ]
-          },
-          "additionalData": null,
-          "__typename": "TrackingContext"
-        },
-        "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.layout": {
-          "columns": null,
-          "rows": null,
-          "columnSize": 1,
-          "rowSize": 1,
-          "marginTop": null,
-          "marginRight": null,
-          "marginBottom": null,
-          "marginLeft": null,
-          "paddingTop": null,
-          "paddingRight": null,
-          "paddingBottom": null,
-          "paddingLeft": null,
-          "__typename": "WidgetLayout"
-        },
-        "$TextWidgetbye_sorabel_3_0_Text_product_score_desc.data.entity": {
-          "title": "",
-          "content": "<p> </p>",
-          "__typename": "TextType"
-        }
+        "navigationList({\"deviceType\":\"mobile\"})": []
       }
+    }
   },
   "laskarState": { "data": {} },
   "appSettings": {
