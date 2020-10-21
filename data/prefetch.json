@@ -855,7 +855,7 @@
           ]
         },
         "actionTitle": "FAQ & Syarat Ketentuan Voucher",
-        "actionLink": "https://www.sorabel.com/faq",
+        "actionLink": "http://bit.ly/SORABELFAQ",
         "context": {
           "type": "id",
           "id": "$ActionTextWidgetinfo_sorabel_3_3_ActionText_product_score_desc.data.context",

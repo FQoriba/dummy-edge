@@ -462,7 +462,7 @@
                 "data": {
                   "appearance": ["fg:white"],
                   "actionTitle": "FAQ & Syarat Ketentuan Voucher",
-                  "actionLink": "https://www.sorabel.com/faq",
+                  "actionLink": "http://bit.ly/SORABELFAQ",
                   "context": {
                     "type": "Text",
                     "widgetType": "Text",
