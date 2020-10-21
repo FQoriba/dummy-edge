@@ -96,7 +96,7 @@
                     "__typename": "WidgetLayout"
                   },
                   "entity": {
-                    "fullUrl": "https://res.cloudinary.com/dt2mntbmf/image/upload/v1603261777/sorabel_iqbvhk.jpg",
+                    "fullUrl": "https://www.sorabel.com/sorabel.jpeg",
                     "width": 480,
                     "height": 77,
                     "title": "Static-Page-Banner-480x77.jpg",
@@ -152,9 +152,7 @@
                 "offset": 0,
                 "type": "Text",
                 "data": {
-                  "appearance": [
-                    "align:left"
-                  ],
+                  "appearance": ["align:left"],
                   "actionTitle": null,
                   "actionLink": null,
                   "context": {
@@ -272,9 +270,9 @@
                   },
                   "entity": {
                     "fullUrl": "https://www.sorabel.com/signature.jpg",
-                    "width": 480,
+                    "width": 481,
                     "height": 130,
-                    "title": "Static-Page-Banner-480x130.jpg",
+                    "title": null,
                     "__typename": "ImageV2"
                   },
                   "__typename": "ImageWidgetData"
@@ -314,38 +312,31 @@
                 "marginBottom": null,
                 "marginLeft": null,
                 "paddingTop": null,
-                "paddingRight": "large",
+                "paddingRight": null,
                 "paddingBottom": null,
-                "paddingLeft": "large",
+                "paddingLeft": null,
                 "__typename": "WidgetLayout"
               },
               "__typename": "WidgetData"
             },
             "content": [
               {
-                "id": "info_sorabel_3_0_ActionText_product_score_desc",
+                "id": "info_sorabel_3_0_Text_product_score_desc",
                 "offset": 0,
-                "type": "ActionText",
+                "type": "Text",
                 "data": {
-                  "appearance": [
-                    "text:body",
-                    "align:center",
-                    "bg:berry",
-                    "fg:white",
-                    "size:small"
-                  ],
+                  "appearance": ["fg:white"],
                   "actionTitle": "Belanja Sorabel di Shopee",
-                  "actionLink": "https://www.sorabel.com/sorabel.jpeg",
+                  "actionLink": "https://shopee.co.id/sorabelofficial?utm_source=sorabelwebapp&utm_medium=seller&utm_campaign=s315322431_SS_ID_OTHR_sorabel2shopee&utm_content=hpbutton",
                   "context": {
-                    "type": "ActionText",
-                    "widgetType": "ActionText",
+                    "type": "Text",
+                    "widgetType": "Text",
                     "name": null,
                     "widgetPosition": "0",
-                    "widgetId": "dce97b3f-9692-4260-b0ea-35d7512c7c65",
+                    "widgetId": "9ad15c35-20b1-494a-8ffe-3bf68408e237",
                     "contextDataPath": [
-                      "actionLink:data.actionLink",
-                      "actionTitle:data.actionTitle",
-                      "title:data.title"
+                      "content:data.entity.content",
+                      "title:data.entity.title"
                     ],
                     "additionalData": null,
                     "__typename": "TrackingContext"
@@ -361,38 +352,36 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": "large",
+                    "paddingBottom": null,
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
-                  "__typename": "ActionTextWidgetData"
+                  "entity": {
+                    "title": "",
+                    "content": "<p>.</p>",
+                    "__typename": "TextType"
+                  },
+                  "__typename": "TextWidgetData"
                 },
-                "__typename": "ActionTextWidget"
+                "__typename": "TextWidget"
               },
               {
-                "id": "info_sorabel_3_1_ActionText_product_score_desc",
+                "id": "info_sorabel_3_1_Text_product_score_desc",
                 "offset": 1,
-                "type": "ActionText",
+                "type": "Text",
                 "data": {
-                  "appearance": [
-                    "text:body",
-                    "align:center",
-                    "bg:berry",
-                    "fg:white",
-                    "size:small"
-                  ],
+                  "appearance": ["fg:white"],
                   "actionTitle": "Hubungi Sorabel di Whatsapp",
                   "actionLink": "https://wa.me/6281280819136",
                   "context": {
-                    "type": "ActionText",
-                    "widgetType": "ActionText",
+                    "type": "Text",
+                    "widgetType": "Text",
                     "name": null,
                     "widgetPosition": "1",
-                    "widgetId": "40b32797-e41a-41bd-9860-0b43716b47ba",
+                    "widgetId": "6d9bd505-12c5-4268-ba49-573baa8345af",
                     "contextDataPath": [
-                      "actionLink:data.actionLink",
-                      "actionTitle:data.actionTitle",
-                      "title:data.title"
+                      "content:data.entity.content",
+                      "title:data.entity.title"
                     ],
                     "additionalData": null,
                     "__typename": "TrackingContext"
@@ -408,38 +397,36 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": "large",
+                    "paddingBottom": null,
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
-                  "__typename": "ActionTextWidgetData"
+                  "entity": {
+                    "title": "",
+                    "content": "<p>.</p>",
+                    "__typename": "TextType"
+                  },
+                  "__typename": "TextWidgetData"
                 },
-                "__typename": "ActionTextWidget"
+                "__typename": "TextWidget"
               },
               {
-                "id": "info_sorabel_3_2_ActionText_product_score_desc",
+                "id": "info_sorabel_3_2_Text_product_score_desc",
                 "offset": 2,
-                "type": "ActionText",
+                "type": "Text",
                 "data": {
-                  "appearance": [
-                    "text:body",
-                    "align:center",
-                    "bg:berry",
-                    "fg:white",
-                    "size:small"
-                  ],
+                  "appearance": ["fg:white"],
                   "actionTitle": "Cek Pesanan Sista",
                   "actionLink": "https://bit.ly/3lgTAdN",
                   "context": {
-                    "type": "ActionText",
-                    "widgetType": "ActionText",
+                    "type": "Text",
+                    "widgetType": "Text",
                     "name": null,
                     "widgetPosition": "2",
-                    "widgetId": "68668360-03e6-4ef6-a2cf-d4eb0db89eff",
+                    "widgetId": "81ec7acf-adff-42c5-b261-e99534ac130e",
                     "contextDataPath": [
-                      "actionLink:data.actionLink",
-                      "actionTitle:data.actionTitle",
-                      "title:data.title"
+                      "content:data.entity.content",
+                      "title:data.entity.title"
                     ],
                     "additionalData": null,
                     "__typename": "TrackingContext"
@@ -455,38 +442,36 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": "large",
+                    "paddingBottom": null,
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
-                  "__typename": "ActionTextWidgetData"
+                  "entity": {
+                    "title": "",
+                    "content": "<p>.</p>",
+                    "__typename": "TextType"
+                  },
+                  "__typename": "TextWidgetData"
                 },
-                "__typename": "ActionTextWidget"
+                "__typename": "TextWidget"
               },
               {
-                "id": "info_sorabel_3_3_ActionText_product_score_desc",
+                "id": "info_sorabel_3_3_Text_product_score_desc",
                 "offset": 3,
-                "type": "ActionText",
+                "type": "Text",
                 "data": {
-                  "appearance": [
-                    "text:body",
-                    "align:center",
-                    "bg:berry",
-                    "fg:white",
-                    "size:small"
-                  ],
+                  "appearance": ["fg:white"],
                   "actionTitle": "FAQ & Syarat Ketentuan Voucher",
                   "actionLink": "https://www.sorabel.com/faq",
                   "context": {
-                    "type": "ActionText",
-                    "widgetType": "ActionText",
+                    "type": "Text",
+                    "widgetType": "Text",
                     "name": null,
                     "widgetPosition": "3",
-                    "widgetId": "3f3fcba1-d172-4bb9-8f30-534ce5ab736e",
+                    "widgetId": "89a9ab2b-4384-4a06-b0a6-a38c8e6be6af",
                     "contextDataPath": [
-                      "actionLink:data.actionLink",
-                      "actionTitle:data.actionTitle",
-                      "title:data.title"
+                      "content:data.entity.content",
+                      "title:data.entity.title"
                     ],
                     "additionalData": null,
                     "__typename": "TrackingContext"
@@ -502,13 +487,18 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": "large",
+                    "paddingBottom": null,
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
-                  "__typename": "ActionTextWidgetData"
+                  "entity": {
+                    "title": "",
+                    "content": "<p>.</p>",
+                    "__typename": "TextType"
+                  },
+                  "__typename": "TextWidgetData"
                 },
-                "__typename": "ActionTextWidget"
+                "__typename": "TextWidget"
               }
             ],
             "__typename": "Wrapper"
