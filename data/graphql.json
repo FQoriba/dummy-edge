@@ -361,7 +361,7 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": null,
+                    "paddingBottom": "medium",
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
@@ -408,7 +408,7 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": null,
+                    "paddingBottom": "medium",
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
@@ -455,7 +455,7 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": null,
+                    "paddingBottom": "medium",
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
@@ -502,7 +502,7 @@
                     "marginLeft": null,
                     "paddingTop": null,
                     "paddingRight": null,
-                    "paddingBottom": null,
+                    "paddingBottom": "medium",
                     "paddingLeft": null,
                     "__typename": "WidgetLayout"
                   },
