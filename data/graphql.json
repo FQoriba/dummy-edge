@@ -96,7 +96,7 @@
                     "__typename": "WidgetLayout"
                   },
                   "entity": {
-                    "fullUrl": "https://sorabel.com/sorabel.jpeg",
+                    "fullUrl": "https://res.cloudinary.com/dt2mntbmf/image/upload/v1603261777/sorabel_iqbvhk.jpg",
                     "width": 480,
                     "height": 77,
                     "title": "Static-Page-Banner-480x77.jpg",
@@ -271,7 +271,7 @@
                     "__typename": "WidgetLayout"
                   },
                   "entity": {
-                    "fullUrl": "https://sorabel.com/signature.jpg",
+                    "fullUrl": "https://res.cloudinary.com/dt2mntbmf/image/upload/v1603261776/signature_dyoigu.jpg",
                     "width": 480,
                     "height": 130,
                     "title": "Static-Page-Banner-480x130.jpg",
