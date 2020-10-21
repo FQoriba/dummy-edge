@@ -271,7 +271,7 @@
                     "__typename": "WidgetLayout"
                   },
                   "entity": {
-                    "fullUrl": "https://res.cloudinary.com/dt2mntbmf/image/upload/v1603261776/signature_dyoigu.jpg",
+                    "fullUrl": "https://www.sorabel.com/signature.jpg",
                     "width": 480,
                     "height": 130,
                     "title": "Static-Page-Banner-480x130.jpg",
@@ -335,7 +335,7 @@
                     "size:small"
                   ],
                   "actionTitle": "Belanja Sorabel di Shopee",
-                  "actionLink": "https://shopee.co.id/sorabelofficial?utm_source=sorabelwebapp&utm_medium=seller&utm_campaign=s315322431_SS_ID_OTHR_sorabel2shopee&utm_content=faqlink",
+                  "actionLink": "https://www.sorabel.com/sorabel.jpeg",
                   "context": {
                     "type": "ActionText",
                     "widgetType": "ActionText",
