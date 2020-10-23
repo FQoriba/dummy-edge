@@ -156,7 +156,7 @@ here is the template of several widgets that are relevant / in used for landing 
       "__typename": "WidgetLayout"
     },
     "entity": {
-      "fullUrl": "https://www.sorabel.com/signature.jpg",
+      "fullUrl": "https://www.sorabel.com/signature23102020.jpg",
       "width": 481,
       "height": 130,
       "title": null,
