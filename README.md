@@ -273,11 +273,20 @@ here is the template of several widgets that relevant / in used for landing page
 
 ## Deployment
 
-there's two options for deployment, using Docker or pm2. currently we use pm2 in the current server. here is step that we do for deployment
+there's two options for deployment, using Docker or pm2. 
+but currently we use pm2 in the current server, here is step that we do to deploy changes
+
+### Deploy latest changes
 
 ```bash
 ssh -i sorabel_key.pem ubuntu@18.138.33.100
 cd /var/www/sorabel.com
 sudo pull origin master
 sudo pm2 restart sorabel
+```
+
+### check service status
+
+```bash
+sudo pm2 list
 ```
