@@ -116,7 +116,7 @@ please refer the options to the actual code because widget has a lot of options
 - all widget type: https://github.com/salestock/ssource/tree/master/www/src/app/dynamicWidgets
 - appearances: https://github.com/salestock/ssource/blob/master/www/src/app/dynamicWidgets/utils/AppearanceUtils.js
 
-here is the template of several widgets that relevant / in used for landing page
+here is the template of several widgets that are relevant / in used for landing page
 
 #### Image Widget
 ```json
