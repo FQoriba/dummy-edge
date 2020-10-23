@@ -281,8 +281,8 @@ but currently we use pm2 in the current server, here is step that we do to deplo
 ```bash
 ssh -i sorabel_key.pem ubuntu@18.138.33.100
 cd /var/www/sorabel.com
-sudo pull origin master
-sudo pm2 restart sorabel
+git pull origin master
+pm2 restart sorabel
 ```
 
 ### check service status
