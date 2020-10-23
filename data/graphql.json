@@ -96,9 +96,9 @@
                     "__typename": "WidgetLayout"
                   },
                   "entity": {
-                    "fullUrl": "https://www.sorabel.com/sorabel.jpg",
+                    "fullUrl": "https://www.sorabel.com/sorabel23102020.jpg",
                     "width": 480,
-                    "height": 77,
+                    "height": 576,
                     "title": "Static-Page-Banner-480x77.jpg",
                     "__typename": "ImageV2"
                   },
@@ -269,7 +269,7 @@
                     "__typename": "WidgetLayout"
                   },
                   "entity": {
-                    "fullUrl": "https://www.sorabel.com/signature.jpg",
+                    "fullUrl": "https://www.sorabel.com/signature23102020.jpg",
                     "width": 481,
                     "height": 130,
                     "title": null,

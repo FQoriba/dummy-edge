@@ -282,9 +282,9 @@
         "__typename": "WidgetLayout"
       },
       "$ImageWidgetinfo_sorabel_0_0_Image_product_score_desc.data.entity": {
-        "fullUrl({\"maxWidth\":480})": "https://imager-next.sistemsista.com/images/resized/480/b10fd87f-25e6-4333-b425-e9b1492f8348",
+        "fullUrl({\"maxWidth\":480})": "https://sorabel.com/signature23102020.jpg",
         "width": 480,
-        "height": 77,
+        "height": 576,
         "title": "Static-Page-Banner-480x77.jpg",
         "__typename": "ImageV2"
       },
@@ -546,7 +546,7 @@
         "__typename": "WidgetLayout"
       },
       "$ImageWidgetinfo_sorabel_2_0_Image_product_score_desc.data.entity": {
-        "fullUrl({\"maxWidth\":480})": "https://imager-next.sistemsista.com/images/resized/480/64984853-553f-4567-b004-47a8aeae9e64",
+        "fullUrl({\"maxWidth\":480})": "https://sorabel.com/signature23102020.jpg",
         "width": 480,
         "height": 130,
         "title": "Static-Page-Banner-480x130.jpg",
