@@ -116,7 +116,7 @@ please refer the options to the actual code because widget has a lot of options
 - all widget type: https://github.com/salestock/ssource/tree/master/www/src/app/dynamicWidgets
 - appearances: https://github.com/salestock/ssource/blob/master/www/src/app/dynamicWidgets/utils/AppearanceUtils.js
 
-here is the template of child widgets
+here is the template of several widgets that relevant / in used for landing page
 
 #### Image Widget
 ```json
@@ -272,3 +272,12 @@ here is the template of child widgets
 ```
 
 ## Deployment
+
+there's two options for deployment, using Docker or pm2. currently we use pm2 in the current server. here is step that we do for deployment
+
+```bash
+ssh -i sorabel_key.pem ubuntu@18.138.33.100
+cd /var/www/sorabel.com
+sudo pull origin master
+sudo pm2 restart sorabel
+```
