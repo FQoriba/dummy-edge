@@ -10,6 +10,7 @@ const PORT = parseInt(process.env.PORT || "3000", 10);
 const app = express();
 const indexHtml = fs.readFileSync(path.join(__dirname, "/data/index.html"), {encoding: "utf-8"});
 const faqHtml = fs.readFileSync(path.join(__dirname, "/data/faq.html"), {encoding: "utf-8"});
+const dataHtml = fs.readFileSync(path.join(__dirname, "/data/data.html"), {encoding: "utf-8"});
 
 app.use(helmet({
   frameguard: {
@@ -38,6 +39,10 @@ app.get("/android/v2/updateInfo", (_, res) => {
 
 app.get("/ios/updateinfo", (_, res) => {
   res.status(500);
+});
+
+app.get("/data", (_, res) => {
+  res.send(dataHtml);
 });
 
 app.get("/faq", (_, res) => {

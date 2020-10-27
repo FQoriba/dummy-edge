@@ -499,6 +499,51 @@
                   "__typename": "TextWidgetData"
                 },
                 "__typename": "TextWidget"
+              },
+              {
+                "id": "info_sorabel_3_4_Text_product_score_desc",
+                "offset": 3,
+                "type": "Text",
+                "data": {
+                  "appearance": ["fg:white"],
+                  "actionTitle": "Terkait Data Sista",
+                  "actionLink": "https://www.sorabel.io/data",
+                  "context": {
+                    "type": "Text",
+                    "widgetType": "Text",
+                    "name": null,
+                    "widgetPosition": "3",
+                    "widgetId": "89a9ab2b-4384-4a06-b0a6-a36c8e6be6ax",
+                    "contextDataPath": [
+                      "content:data.entity.content",
+                      "title:data.entity.title"
+                    ],
+                    "additionalData": null,
+                    "__typename": "TrackingContext"
+                  },
+                  "layout": {
+                    "columns": null,
+                    "rows": null,
+                    "columnSize": 1,
+                    "rowSize": 1,
+                    "marginTop": null,
+                    "marginRight": null,
+                    "marginBottom": null,
+                    "marginLeft": null,
+                    "paddingTop": null,
+                    "paddingRight": null,
+                    "paddingBottom": null,
+                    "paddingLeft": null,
+                    "__typename": "WidgetLayout"
+                  },
+                  "entity": {
+                    "title": "",
+                    "content": "<p>.</p>",
+                    "__typename": "TextType"
+                  },
+                  "__typename": "TextWidgetData"
+                },
+                "__typename": "TextWidget"
               }
             ],
             "__typename": "Wrapper"
