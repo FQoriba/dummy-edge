@@ -502,7 +502,7 @@
               },
               {
                 "id": "info_sorabel_3_4_Text_product_score_desc",
-                "offset": 3,
+                "offset": 4,
                 "type": "Text",
                 "data": {
                   "appearance": ["fg:white"],
@@ -512,7 +512,7 @@
                     "type": "Text",
                     "widgetType": "Text",
                     "name": null,
-                    "widgetPosition": "3",
+                    "widgetPosition": "4",
                     "widgetId": "89a9ab2b-4384-4a06-b0a6-a36c8e6be6ax",
                     "contextDataPath": [
                       "content:data.entity.content",
