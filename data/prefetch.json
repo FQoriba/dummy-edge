@@ -907,7 +907,7 @@
       },
       "ActionTextWidgetinfo_sorabel_3_4_ActionText_product_score_desc": {
         "id": "info_sorabel_3_4_ActionText_product_score_desc",
-        "offset": 3,
+        "offset": 4,
         "type": "ActionText",
         "data": {
           "type": "id",
@@ -945,7 +945,7 @@
         "type": "ActionText",
         "widgetType": "ActionText",
         "name": null,
-        "widgetPosition": "3",
+        "widgetPosition": "4",
         "widgetId": "3f3fcba1-d172-4bb9-8f30-524ce3ab736f",
         "contextDataPath": {
           "type": "json",
