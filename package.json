@@ -12,9 +12,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon -e js,html index.js"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.5"
-  }
+  "devDependencies": {}
 }
